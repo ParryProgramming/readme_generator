@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "none") {
-    return `\n* [license](#license)\n`;
+    return `[license](#license)`;
   }
   return "";
 }
@@ -22,7 +22,7 @@ function renderLicenseSection(license) {
   if (license !== "none") {
     return `## License
     
-        Licensed under the ${license} license.`;
+        Licensed under the MIT license.`;
   }
   return "";
 }
@@ -53,9 +53,9 @@ function generateMarkdown(data) {
   ## Contributors
   ${data.contributors}
   ## Testing
-  \`\`\`
+  
   ${data.test}
-  \`\`\`
+  
   ${renderLicenseSection(data.license)}
 
 
