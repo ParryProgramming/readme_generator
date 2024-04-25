@@ -22,7 +22,7 @@ function renderLicenseSection(license) {
   if (license !== "none") {
     return `## License
     
-        Licensed under the MIT license.`;
+        Licensed under the ${license} license.`;
   }
   return "";
 }

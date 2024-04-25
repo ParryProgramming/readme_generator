@@ -10,7 +10,7 @@ README generator for professionals to create quick README files for faster workf
 
 ## Example
 
-<img src="./assets/images/screenshot.png"
+<img src="./images/screenshot.png"
      alt="readmeGenerator">
 
 ## Links
